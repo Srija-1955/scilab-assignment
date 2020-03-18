@@ -1,0 +1,11 @@
+A=input("Enter the coefficient matrix : ");
+B=input("Enter the constant matrix : ");
+disp(A,'A=');
+disp(B,'B=');
+x=(A'*A)\(A'*B);
+disp(x,'x=');
+C=x(1,1);
+D=x(2,1);
+disp(C,'C=');
+disp(D,'D=');
+disp('the line of best fit is B=C+Dt');
